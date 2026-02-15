@@ -1,0 +1,69 @@
+# -*- coding: utf-8 -*-
+
+##
+## 注：タブ文字を使わないこと（使うとエラーになる）
+##
+
+## まえがき
+PREDEF:
+  - chap00-preface.re
+
+## 本文
+CHAPS:
+  - chap01-ayana.re
+  - chap02-hiiragi.re
+  - chap04-wakana.re
+  - chap05-kimikimi714.re
+  - chap06-china_syuke.re
+  - chap07-ochi.re
+  - chap08-chie.re
+  - chap09-miyamoto.re
+  - chap10-rio.re
+  - chap11-wiroha.re
+  - chap12-kyoko.re
+  - chap13-toda.re
+  - chap14-moimoi.re
+  - chap15-harunyan.re
+  - chap16-cho.re
+  - chap17-mayama.re
+  - chap18-akane.re
+  - chap19-shoco.re
+  - chap20-micronn.re
+  - chap21-yukamiya.re
+  - chap22-sasami.re
+
+## 付録
+APPENDIX:
+
+## あとがき
+POSTDEF:
+##
+## 【Tips】
+##
+## ・付録やまえがきやあとがきがなければ、空にする。
+##   例：
+##
+##     PREDEF:
+##
+##     CHAPS:
+##       - 01-install.re
+##
+##     APPENDIX:
+##
+##     POSTDEF:
+##
+##
+## ・第I部、第II部、…のように「部」を使うには、次のようにする。
+##   （部タイトルの最後に半角の「:」をつけることに注意）
+##
+##     CHAPS:
+##       - 初級編:
+##           - 01-install.re
+##           - 02-tutorial.re
+##       - 中級編:
+##           - 03-syntax.re
+##           - 04-customize.re
+##       - 上級編:
+##           - 05-faq.re
+##           - 06-bestpractice.re
+##

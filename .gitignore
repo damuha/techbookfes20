@@ -1,0 +1,17 @@
+node_modules/
+Gemfile.lock
+*.pdf
+.sass-cache/
+
+articles/*.pdf
+articles/*.epub
+articles/*.html
+# articles/*.md
+articles/*.xml
+articles/*.txt
+
+.DS_Store
+
+# ignore build artifacts and web images
+articles/webroot/images/*
+!articles/webroot/images/.keep
