@@ -24,12 +24,11 @@ language: ja
 # 書名
 booktitle:
   {
-    name: "私のすごいAI活用技術大全",
-    subtitle: "〜女性エンジニアのためのガイドブック〜",
+    name: "夜は短し歩けよだむは",
   }
 
 # 著者名。「, 」で区切って複数指定できる
-aut: [{ name: "WAKE Community", file-as: "techboosterヘン" }]
+aut: [{ name: "咸　多栄", file-as: "t" }]
 
 # 以下はオプション
 # 以下はオプション(autと同じように配列書式で複数指定可能)。
@@ -49,10 +48,10 @@ aut: [{ name: "WAKE Community", file-as: "techboosterヘン" }]
 # a-clb, clb: 限定参加または補足者
 # a-cmm, cmm: 解釈・分析・考察者
 # a-csl, csl: 監修者
-dsr: ["かきまる(@kakimaruno)"]
+dsr: ["きなせ　みほ"]
 # a-edt, edt: 編集者
-edt: ["WAKE Community"]
-ill: ["aoi(@_a0i)"]
+# edt: ["WAKE Community"]
+# ill: ["aoi(@_a0i)"]
 # a-lyr, lyr: 歌詞作成者
 # a-mdc, mdc: メタデータセットの一次的責任者
 # a-mus, mus: 音楽家
@@ -60,7 +59,7 @@ ill: ["aoi(@_a0i)"]
 # a-oth, oth: その他
 # a-pht, pht: 撮影責任者
 # a-pbl, pbl: 出版社（発行所）
-pbl: WAKE Career
+# pbl: WAKE Career
 prt: ["日光企画"]
 # prt: TechBooster
 # a-red, red: 項目の枠組起草者
@@ -70,18 +69,18 @@ prt: ["日光企画"]
 # a-trc, trc: 筆記・タイプ作業者
 # a-trl, trl: 翻訳者
 
-contact: ["	contact@bgrass.co.jp"]
+contact: ["X: damuha_"]
 
 # 刊行日(省略した場合は実行時の日付)
-date: 2025-11-15
+date: 2026-4-1
 # 発行年月。YYYY-MM-DD形式による配列指定。省略した場合はdateを使用する
 # 複数指定する場合は次のように記述する
 # [["初版第1刷の日付", "初版第2刷の日付"], ["第2版第1刷の日付"]]
 # 日付の後ろを空白文字で区切り、任意の文字列を置くことも可能。
-history: [["2025-11-15 ver 1.0 （技術書典19）"]]
+history: [["2026-4-1 ver 1.0 （技術書典20）"]]
 # 権利表記(配列で複数指定可)
 # rights: (C) 2016 Re:VIEW Developers
-rights: (C) 2025 女性のためのITキャリア転職「WAKE Career」
+rights: (C) 2026 咸 多栄
 # description: 説明
 # subject: 短い説明用タグ(配列で複数指定可)
 # type: 書籍のカテゴリーなど(配列で複数指定可)
@@ -120,7 +119,7 @@ toclevel: 3
 # 採番の設定。採番させたくない見出しには「==[nonum]」のようにnonum指定をする
 #
 # 本文でセクション番号を表示する見出しレベル
-secnolevel: 3
+secnolevel: 0
 
 # 本文中に目次ページを作成するか。省略した場合はnull (作成しない)
 toc: true
@@ -376,15 +375,15 @@ texstyle: ["reviewmacro"]
 # hiddenfolio=nikko-pcは日光企画向けのノドへの隠しノンブル配置
 #
 # B5の設定(10pt 40文字×35行) - 紙版
-texdocumentclass:
-  [
-    "review-jsbook",
-    "media=print,paper=b5,serial_pagination=true,hiddenfolio=nikko-pc,openany,fontsize=10pt,baselineskip=15.4pt,line_length=40zw,number_of_lines=35,head_space=30mm,headsep=10mm,headheight=5mm,footskip=10mm",
-  ]
+# texdocumentclass:
+#   [
+#     "review-jsbook",
+#     "media=print,paper=b5,serial_pagination=true,hiddenfolio=nikko-pc,openany,fontsize=10pt,baselineskip=15.4pt,line_length=40zw,number_of_lines=35,head_space=30mm,headsep=10mm,headheight=5mm,footskip=10mm",
+#   ]
 # B5の設定(10pt 40文字×35行) - 電子版
 # texdocumentclass: ["review-jsbook", "media=ebook,paper=b5,serial_pagination=true,openany,fontsize=10pt,baselineskip=15.4pt,line_length=40zw,number_of_lines=35,head_space=30mm,headsep=10mm,headheight=5mm,footskip=10mm"]
 # A5の設定(9pt 38文字×37行) - 紙版
-# texdocumentclass: ["review-jsbook", "media=print,paper=a5,serial_pagination=true,hiddenfolio=nikko-pc,openany,fontsize=9pt,baselineskip=13pt,line_length=38zw,number_of_lines=37,head_space=15mm,headsep=3mm,headheight=5mm,footskip=10mm"]
+texdocumentclass: ["review-jsbook", "media=print,paper=a5,serial_pagination=true,hiddenfolio=nikko-pc,openany,fontsize=9pt,baselineskip=13pt,line_length=38zw,number_of_lines=37,head_space=15mm,headsep=3mm,headheight=5mm,footskip=10mm"]
 # A5の設定(9pt 38文字×37行) - 電子版
 # texdocumentclass: ["review-jsbook", "media=ebook,paper=a5,serial_pagination=true,openany,fontsize=9pt,baselineskip=13pt,line_length=38zw,number_of_lines=37,head_space=15mm,headsep=3mm,headheight=5mm,footskip=10mm"]
 #
