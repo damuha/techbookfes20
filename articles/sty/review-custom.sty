@@ -2,3 +2,9 @@
 
 % ヘッダーから「第X章」を除去し、章タイトルのみ表示する
 \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+
+% reviewmainmatterhookが本文開始時にchaptermarkを再定義するため、それも上書きする
+\def\reviewmainmatterhook{%
+  \renewcommand{\chaptermark}[1]{\markboth{##1}{}}
+  \mainmatter
+}
